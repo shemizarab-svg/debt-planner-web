@@ -1,3 +1,67 @@
-<!doctype html><html lang="ru"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><meta name="theme-color" content="#F4F6F5"/><title>Мой план — кредиты и бюджет</title><script src="https://telegram.org/js/telegram-web-app.js"></script>  <script type="module" crossorigin src="./assets/index-Rqh_2qEi.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Besclb-j.css">
-</head><body><div id="root"></div></body></html>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#F4F6F5" />
+    <title>Мой план — кредиты и бюджет</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f4f6f5;
+        color: #192d26;
+      }
+      .startup-screen {
+        box-sizing: border-box;
+        min-height: 100vh;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        gap: 16px;
+        padding: 32px 24px;
+        text-align: center;
+        font:
+          17px/1.6 system-ui,
+          sans-serif;
+      }
+      .startup-screen h1 {
+        font-size: 27px;
+        line-height: 1.25;
+        margin: 0;
+      }
+      .startup-screen p {
+        max-width: 480px;
+        margin: 0;
+      }
+      .startup-screen button {
+        border: 0;
+        border-radius: 16px;
+        padding: 16px 24px;
+        background: #196d4d;
+        color: white;
+        font: inherit;
+        cursor: pointer;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-u_kJ3mpU.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Besclb-j.css">
+  </head>
+  <body>
+    <div id="root">
+      <main class="startup-screen" aria-live="polite">
+        <p>МОЙ ПЛАН</p>
+        <h1 id="startup-title">Запускаем приложение</h1>
+        <p id="startup-message">
+          Загружаем компоненты. Если экран не меняется, закройте приложение
+          крестиком и откройте его из бота снова.
+        </p>
+        <button type="button" id="startup-retry" hidden>
+          Повторить загрузку
+        </button>
+      </main>
+    </div>
+  </body>
+</html>
